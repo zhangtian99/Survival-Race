@@ -1,0 +1,7 @@
+# 告诉浏览器所有.unityweb文件都已经是Brotli压缩格式
+/Build/*.unityweb
+  Content-Encoding: br
+
+# 告诉浏览器.wasm文件的正确MIME类型
+/Build/*.wasm
+  Content-Type: application/wasm
